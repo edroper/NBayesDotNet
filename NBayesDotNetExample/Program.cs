@@ -23,8 +23,8 @@ namespace NBayesDotNetExample
             {
                 lines = new List<string>();
                 string line;
-                while ((line = sr.ReadLine()) != null)
-                {
+                while ((line = sr.ReadLine()) != null) 
+                     {
                     lines.Add(line); 
                 }
             }
